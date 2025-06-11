@@ -226,11 +226,11 @@ The system uses a progressive approach to extract content:
 - **Frequent Source Changes**: If the target documentation site changes structure often, extraction logic may break until updated.
 - **No Interactive Content**: Interactive demos, embedded videos, or widgets are not extracted—only static text and structure.
 
-## 🎥 Video Explanation
+## Video Explanation
 
 https://drive.google.com/file/d/1OSQFPA0h_A54gMdM2uFnAbBlEILU_GWl/view?usp=sharing
 
-## 🖼️ Sample UI Screenshots
+## Sample UI Screenshots
 
 Sample screenshots of the Streamlit UI are included in this folder:
 
