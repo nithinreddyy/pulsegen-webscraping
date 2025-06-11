@@ -54,7 +54,7 @@ Pulsegen/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/nithnreddyy/Pulse-WebScraping.git
+git clone https://github.com/nithnreddyy/pulsegen-webscraping.git
 cd pulsegen
 ```
 
