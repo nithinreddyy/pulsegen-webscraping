@@ -1,0 +1,56 @@
+2025-06-10 19:14:32,952 - INFO - Crawling https://www.chargebee.com/docs/2.0/ (depth: 0)
+2025-06-10 19:14:39,708 - INFO - Trying Basic Request for https://www.chargebee.com/docs/2.0/
+2025-06-10 19:14:39,833 - INFO - Found content using largest block strategy for https://www.chargebee.com/docs/2.0/
+2025-06-10 19:14:39,834 - INFO - Basic Request successful for https://www.chargebee.com/docs/2.0/
+2025-06-10 19:14:39,834 - INFO - Successfully extracted meaningful content from https://www.chargebee.com/docs/2.0/ (2229 chars)
+2025-06-10 19:14:39,836 - INFO - Crawling https://www.chargebee.com/docs (depth: 1)
+2025-06-10 19:14:48,189 - INFO - Trying Basic Request for https://www.chargebee.com/docs
+2025-06-10 19:14:48,278 - INFO - Found content using largest block strategy for https://www.chargebee.com/docs
+2025-06-10 19:14:48,279 - INFO - Basic Request successful for https://www.chargebee.com/docs
+2025-06-10 19:14:48,280 - INFO - Successfully extracted meaningful content from https://www.chargebee.com/docs (2229 chars)
+2025-06-10 19:14:48,280 - INFO - Crawling https://www.chargebee.com/docs/billing/2.0/getting-started/accessing_chargebee (depth: 1)
+2025-06-10 19:14:56,355 - INFO - Trying Basic Request for https://www.chargebee.com/docs/billing/2.0/getting-started/accessing_chargebee
+2025-06-10 19:14:56,397 - INFO - Using body fallback for https://www.chargebee.com/docs/billing/2.0/getting-started/accessing_chargebee
+2025-06-10 19:14:56,398 - INFO - Basic Request successful for https://www.chargebee.com/docs/billing/2.0/getting-started/accessing_chargebee
+2025-06-10 19:14:56,401 - INFO - Successfully extracted meaningful content from https://www.chargebee.com/docs/billing/2.0/getting-started/accessing_chargebee (21791 chars)
+2025-06-10 19:14:56,402 - INFO - Crawling https://www.chargebee.com/docs/payments/2.0/payment-methods/payment-method-overview (depth: 1)
+2025-06-10 19:15:02,097 - INFO - Trying Basic Request for https://www.chargebee.com/docs/payments/2.0/payment-methods/payment-method-overview
+2025-06-10 19:15:02,213 - INFO - Found content using largest block strategy for https://www.chargebee.com/docs/payments/2.0/payment-methods/payment-method-overview
+2025-06-10 19:15:02,213 - INFO - Basic Request successful for https://www.chargebee.com/docs/payments/2.0/payment-methods/payment-method-overview
+2025-06-10 19:15:02,215 - WARNING - Extracted content from https://www.chargebee.com/docs/payments/2.0/payment-methods/payment-method-overview appears garbled or incomplete
+2025-06-10 19:15:02,215 - INFO - Generated fallback content for https://www.chargebee.com/docs/payments/2.0/payment-methods/payment-method-overview
+2025-06-10 19:15:02,217 - INFO - Starting extraction for https://www.chargebee.com/docs/2.0/, content length: 2229
+2025-06-10 19:15:02,618 - INFO - Attempting AI extraction for https://www.chargebee.com/docs/2.0/
+2025-06-10 19:15:03,485 - INFO - Crawling https://www.chargebee.com/docs/2.0/ (depth: 0)
+2025-06-10 19:15:10,442 - INFO - HTTP Request: POST https://magicplatform-gpt4-o-gs-test-canadaeast.openai.azure.com/openai/deployments/MagicPlatform-GPT4-O-GS-Test/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-06-10 19:15:10,452 - INFO - AI response received for https://www.chargebee.com/docs/2.0/, length: 2941
+2025-06-10 19:15:10,452 - INFO - JSON parsed successfully for https://www.chargebee.com/docs/2.0/, type: <class 'list'>, length: 4
+2025-06-10 19:15:10,453 - INFO - Validating module 1 for https://www.chargebee.com/docs/2.0/: Billing
+2025-06-10 19:15:10,454 - INFO - Module 1 validated successfully for https://www.chargebee.com/docs/2.0/
+2025-06-10 19:15:10,454 - INFO - Validating module 2 for https://www.chargebee.com/docs/2.0/: Payments
+2025-06-10 19:15:10,454 - INFO - Module 2 validated successfully for https://www.chargebee.com/docs/2.0/
+2025-06-10 19:15:10,455 - INFO - Validating module 3 for https://www.chargebee.com/docs/2.0/: RevRec
+2025-06-10 19:15:10,455 - INFO - Module 3 validated successfully for https://www.chargebee.com/docs/2.0/
+2025-06-10 19:15:10,455 - INFO - Validating module 4 for https://www.chargebee.com/docs/2.0/: Retention
+2025-06-10 19:15:10,456 - INFO - Module 4 validated successfully for https://www.chargebee.com/docs/2.0/
+2025-06-10 19:15:10,456 - INFO - AI extraction successful for https://www.chargebee.com/docs/2.0/ with 4 detailed modules
+2025-06-10 19:15:12,785 - INFO - Trying Basic Request for https://www.chargebee.com/docs/2.0/
+2025-06-10 19:15:12,908 - INFO - Found content using largest block strategy for https://www.chargebee.com/docs/2.0/
+2025-06-10 19:15:12,909 - INFO - Basic Request successful for https://www.chargebee.com/docs/2.0/
+2025-06-10 19:15:12,910 - INFO - Successfully extracted meaningful content from https://www.chargebee.com/docs/2.0/ (2229 chars)
+2025-06-10 19:15:12,913 - INFO - Crawling https://www.chargebee.com/docs (depth: 1)
+2025-06-10 19:15:20,871 - INFO - Trying Basic Request for https://www.chargebee.com/docs
+2025-06-10 19:15:20,945 - INFO - Found content using largest block strategy for https://www.chargebee.com/docs
+2025-06-10 19:15:20,946 - INFO - Basic Request successful for https://www.chargebee.com/docs
+2025-06-10 19:15:20,947 - INFO - Successfully extracted meaningful content from https://www.chargebee.com/docs (2229 chars)
+2025-06-10 19:15:20,947 - INFO - Crawling https://www.chargebee.com/docs/billing/2.0/getting-started/accessing_chargebee (depth: 1)
+2025-06-10 19:15:27,647 - INFO - Trying Basic Request for https://www.chargebee.com/docs/billing/2.0/getting-started/accessing_chargebee
+2025-06-10 19:15:27,696 - INFO - Using body fallback for https://www.chargebee.com/docs/billing/2.0/getting-started/accessing_chargebee
+2025-06-10 19:15:27,697 - INFO - Basic Request successful for https://www.chargebee.com/docs/billing/2.0/getting-started/accessing_chargebee
+2025-06-10 19:15:27,700 - INFO - Successfully extracted meaningful content from https://www.chargebee.com/docs/billing/2.0/getting-started/accessing_chargebee (21791 chars)
+2025-06-10 19:15:27,701 - INFO - Crawling https://www.chargebee.com/docs/payments/2.0/payment-methods/payment-method-overview (depth: 1)
+2025-06-10 19:15:35,500 - INFO - Trying Basic Request for https://www.chargebee.com/docs/payments/2.0/payment-methods/payment-method-overview
+2025-06-10 19:15:35,621 - INFO - Found content using largest block strategy for https://www.chargebee.com/docs/payments/2.0/payment-methods/payment-method-overview
+2025-06-10 19:15:35,622 - INFO - Basic Request successful for https://www.chargebee.com/docs/payments/2.0/payment-methods/payment-method-overview
+2025-06-10 19:15:35,624 - WARNING - Extracted content from https://www.chargebee.com/docs/payments/2.0/payment-methods/payment-method-overview appears garbled or incomplete
+2025-06-10 19:15:35,624 - INFO - Generated fallback content for https://www.chargebee.com/docs/payments/2.0/payment-methods/payment-method-overview
