@@ -239,3 +239,11 @@ The system uses a progressive approach to extract content:
 ## 🎥 Video Explanation
 
 https://drive.google.com/file/d/1OSQFPA0h_A54gMdM2uFnAbBlEILU_GWl/view?usp=sharing
+
+## 🖼️ Sample UI Screenshots
+
+Sample screenshots of the Streamlit UI are included in this folder:
+- `UI-1.PNG`
+- `UI-2.PNG`
+
+These images showcase the application's interface and user experience.
