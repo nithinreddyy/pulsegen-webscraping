@@ -4,7 +4,7 @@
 
 A powerful AI-driven web scraping and content extraction tool that automatically extracts structured modules and submodules from any documentation website. Built with Streamlit and powered by Azure OpenAI.
 
-## 🚀 Features
+## Features
 
 ### Core Capabilities
 - **Universal Web Scraping**: Extracts content from any documentation website
@@ -22,7 +22,7 @@ A powerful AI-driven web scraping and content extraction tool that automatically
 - **Session Management**: Prevents data loss during processing
 - **Export Capabilities**: Download results as structured JSON
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 Pulsegen/
@@ -43,14 +43,14 @@ Pulsegen/
 └── README.md             # This file
 ```
 
-## 📋 Prerequisites
+## Prerequisites
 
 - **Python 3.8+**: Make sure you have Python 3.8 or higher installed
 - **Azure OpenAI Access**: You need an Azure OpenAI API key and endpoint
 - **Chrome Browser**: Required for Selenium (dynamic content extraction)
 - **Firecrawl API**: For advanced scraping of protected sites
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
@@ -135,7 +135,7 @@ streamlit run app.py
 
 The application will open in your browser at `http://localhost:8501`
 
-## 🚀 Usage Guide
+## Usage Guide
 
 ### Basic Usage
 1. **Enter URLs**: Add documentation URLs (one per line) in the text area
@@ -149,7 +149,7 @@ The application will open in your browser at `http://localhost:8501`
 - **Medium Quality**: Extracted using fallback content
 - **Skipped**: URLs that couldn't produce meaningful modules
 
-## 📊 Output Format
+## Output Format
 
 The system generates structured JSON in this format:
 
@@ -167,7 +167,7 @@ The system generates structured JSON in this format:
 ]
 ```
 
-## 🔧 Configuration Options
+## Configuration Options
 
 ### Required Environment Variables
 
@@ -196,7 +196,7 @@ LOG_LEVEL=INFO
 DEBUG_MODE=false
 ```
 
-## 🔍 How It Works
+## How It Works
 
 ### Multi-Layer Content Extraction
 The system uses a progressive approach to extract content:
