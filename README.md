@@ -243,7 +243,11 @@ https://drive.google.com/file/d/1OSQFPA0h_A54gMdM2uFnAbBlEILU_GWl/view?usp=shari
 ## 🖼️ Sample UI Screenshots
 
 Sample screenshots of the Streamlit UI are included in this folder:
-- `UI-1.PNG`
-- `UI-2.PNG`
+
+![Streamlit UI Screenshot 1](UI-1.PNG)
+*Main dashboard view*
+
+![Streamlit UI Screenshot 2](UI-2.PNG)
+*Extraction results view*
 
 These images showcase the application's interface and user experience.
