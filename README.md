@@ -144,16 +144,6 @@ The application will open in your browser at `http://localhost:8501`
 4. **Review Results**: Examine extracted modules with quality indicators
 5. **Download**: Export results as JSON files
 
-### Example URLs to Try
-```
-https://docs.python.org/3/
-https://help.github.com/
-https://support.discord.com/
-https://help.instagram.com/
-https://docs.streamlit.io/
-https://docs.microsoft.com/
-```
-
 ### Understanding Results
 - **High Quality**: Successfully extracted with AI analysis
 - **Medium Quality**: Extracted using fallback content
