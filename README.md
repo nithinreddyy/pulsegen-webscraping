@@ -232,7 +232,7 @@ The system uses a progressive approach to extract content:
 - **Session/Stateful Content**: Pages requiring login, cookies, or session state are not supported and will not be extracted.
 - **API/Quota Exhaustion**: If your Azure OpenAI or Firecrawl quota is exhausted, extraction will silently fail or degrade in quality.
 - **Very Large Pages**: Extremely large documentation pages may be truncated due to content length limits, potentially omitting some modules.
-- **Non-English/Multilingual Docs**: Extraction is optimized for English; results on other languages may be inconsistent.
+- **Non-English/Multilingual Docs**: Extraction is optimized for English. Results on other languages may be inconsistent.
 - **Frequent Source Changes**: If the target documentation site changes structure often, extraction logic may break until updated.
 - **No Interactive Content**: Interactive demos, embedded videos, or widgets are not extracted—only static text and structure.
 
